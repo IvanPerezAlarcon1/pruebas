@@ -1,0 +1,62 @@
+-se pueden crear páginas web en el block de notas
+-solo hay que cambiar el nombre poniendo un ".html" despues del nombre y guardar
+-luego abrimos con un navegador y ya está.
+-se pueden arrastrar el icono de la pagina creada al block de notas y en este se guarda lo que contiene la pagina
+-toda pagina web html tiene un <head></head> donde se inicia y cierra la cabecera o titulo de la pagina
+-dentro de head va <tittle></tittle> establece el nombre del documento
+-tambien tiene un <body></body> donde dentro va todo lo que contendra nuestra pagina web
+-tanto head como body van dentro de <html></html>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+el anterior es el código para poder escribir en español podiendo escribir 
+tildes y ñs.
+
+-la etiqueta <font size=" " color=" " face=" "></font> (en el espacio va la variable)
+sirve para la fuente, o tamaño de la letra,
+color de la letra en hexagesimal o ingles 
+y tipo de letra de la página(en wold aparecen los nombres y tipos de letras
+para tomar como referencia)
+
+-con <p>...</p> separo el texto en párrafos
+
+-con <p align="center ó left ó right ó justify"> dejo el texto alineado
+al centro,izquierda,derecha,o justificado
+
+-<b>...</b> ó <strong>...</strong> es un texto en negrilla cualquiera de 
+los 2 hace lo mismo.
+
+-<i>...</i> es cursiva.
+
+-<u>...</u> es subrrayado.
+
+-para agregar una imagen a la página esta debe estar en la misma carpeta
+de la página.
+
+-con <img src="nombreimagen.tipo(.jpg,.png,.gif)" width="ANCHO" height="ALTURA">
+tener cuidado de no nombrar a la imagen con espacios o simbolos, ya que
+si las subimos a un servidor estas no apareceran.Es recomendable usar el
+guión bajo "_" para reemplazar el espacio al nombrar una imagen
+ANCHO=se puede manejar en nro de pixeles como en % de tamaño de la imagen
+original ej: 4000 pixeles o 40% de la imagen original
+
+-con <body background="nombreimagen.tipo(.jpg,.png,.gif)"> se puede colocar un fondo a la página,este body es el body donde va el contenido de la página,no otro nuevo
+CONSEJO:si se quiere insertar una textura, agregar una imagen pequeña que se repetira y por lo tanto se verá bien(se supone).
+
+- <br> sirve para salto de línea en la página(va sin terminacion con los
+demás comandos)
+
+----------------TABLAS-----------------
+
+- una tabla se utiliza dentro de body y se abre y se cierra con <table border="(tamaño borde tabla)" align="center(centralizar) 
+width="(ancho,puede ser en % o nro de pixeles)" bgcolor="(color de fondo de la tabla)" >...</table>.
+-Si en vez de poner un color se desea poner una imagen como fondo para la tabla se cambia el bgcolor por background="imagen.tipo".
+- con <tr>...</tr> se agrega una fila
+- con <td>...</td> se agrega una columna
+
+
+
+
+
+
+-
+
